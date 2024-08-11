@@ -20,14 +20,9 @@ $ npm run start:prod
 ## Running the app with Docker
 
 ```bash
-# development
-$ npm run start
+# Change the "localhost" values in .env file to their respective container's name since they're the hostname in the same network
 
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+docker compose up
 ```
 
 ## Test
